@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900|Pacifico|Roboto:100,300,400,500,700,900&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: url(http://www.stopimage.com/images/minimalizm-gradient-background-pregnancy-doctor-penang.jpg) center/cover no-repeat;
+  background-attachment: fixed;
+  font-family: Roboto, sans-serif; }
+
+h2 {
+  font-size: 50px;
+  font-family: Montserrat, sans-serif;
+  text-align: center; }
+
+p {
+  color: #000;
+  font-family: 'Varela Round', sans-serif; }
+
+[class*='slider-'] {
+  height: 100vh; }
+
+.slider-1 .container {
+  background-color: #FFF;
+  margin: 28px;
+  border-radius: 20px;
+  box-shadow: 0 8px 12px 3px rgba(0, 0, 0, 0.1);
+  height: 90vh; }
+  .slider-1 .container .transparent-bg {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    margin-bottom: 0; }
+    .slider-1 .container .transparent-bg .navbar-nav li a {
+      color: #000;
+      letter-spacing: 1px; }
+      .slider-1 .container .transparent-bg .navbar-nav li a:hover {
+        color: rgba(0, 0, 0, 0.3); }
+    .slider-1 .container .transparent-bg .navbar-nav .active a {
+      color: #000;
+      background-color: transparent;
+      letter-spacing: 1px; }
+      .slider-1 .container .transparent-bg .navbar-nav .active a:hover {
+        background-color: transparent;
+        color: rgba(0, 0, 0, 0.3); }
+    .slider-1 .container .transparent-bg .navbar-header .navbar-brand {
+      font-family: Pacifico, cursive;
+      color: #000; }
+      .slider-1 .container .transparent-bg .navbar-header .navbar-brand:hover {
+        color: #000; }
+
+.slider-1 .carousel-indicators li {
+  background-color: #D6D8D9;
+  height: 12px;
+  width: 12px; }
+  .slider-1 .carousel-indicators li:hover {
+    transform: scale(1.2);
+    transition: transform .3s ease; }
+
+.slider-1 .carousel-indicators .active {
+  background-color: #4B4294; }
+
+.slider-1 .carousel-inner .item {
+  height: 80vh; }
+
+.slider-1 .carousel-inner .carousel-caption {
+  text-shadow: none;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  text-align: left;
+  color: #000; }
+
+.slider-2 .image img {
+  height: 100%;
+  width: 100%; }
+
+.slider-2 .info {
+  height: 743px; }
+  .slider-2 .info h1 {
+    font-family: Montserrat, sans-serif;
+    color: #FFF;
+    font-size: 50px;
+    line-height: 56px;
+    font-weight: 700;
+    letter-spacing: -2.4px;
+    text-align: left;
+    margin-top: 10px; }
+  .slider-2 .info p {
+    font-size: 17px;
+    color: #FFF;
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.7666em; }
+
+.slider-2 button {
+  border-radius: 50px;
+  padding: 15px 50px;
+  margin-top: 30px;
+  color: #4D4394;
+  font-weight: 700;
+  background-color: #FFF; }
+
+.slider-2 i.fa {
+  color: #FFF;
+  position: absolute;
+  right: 40px;
+  bottom: 145px;
+  font-size: 40px;
+  border-radius: 50%;
+  background-color: #4B4294;
+  padding: 12px 20px; }
+  .slider-2 i.fa:hover {
+    cursor: pointer; }
+
+.slider-3 .container {
+  background-color: #FFF;
+  margin: 28px;
+  border-radius: 20px;
+  box-shadow: 0 8px 12px 3px rgba(0, 0, 0, 0.1);
+  height: 90vh; }
+  .slider-3 .container h2 {
+    font-size: 50px; }
+
+.in-touch {
+  margin-top: 7%; }
+  .in-touch span {
+    margin-left: 3%; }
+
+/*# sourceMappingURL=style.css.map */
