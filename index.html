@@ -17,20 +17,27 @@
 			<div class="container">
 				<div class="row">
 					<section class="slider-1" id="Home">
-						<div class="container">
+						<div class="container clearfix">
 							<nav class="navbar navbar-default transparent-bg">
 								<div class="container-fluid">
 									<div class="navbar-header">
+										<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+							        <span class="icon-bar"></span>
+							        <span class="icon-bar"></span>
+							        <span class="icon-bar"></span> 
+							      </button>
 										<a class="navbar-brand" href="#">Jarosław Borzęcki</a>
 									</div>
-									<ul class="nav navbar-nav navbar-right menu-style">
-										<li class="active"><a href="#home">Home</a></li>
-										<li><a href="#me">O mnie</a></li>
-										<li><a href="#skills">Umiejętności</a></li>
-										<li><a href="#ref">Referencje</a></li>
-										<li><a href="#portfolio">Portfolio</a></li>
-										<li><a href="#contact">Kontakt</a></li>
-									</ul>
+									<div class="collapse navbar-collapse" id="myNavbar">
+										<ul class="nav navbar-nav navbar-right menu-style">
+											<li class="active"><a href="#home">Home</a></li>
+											<li><a href="#me">O mnie</a></li>
+											<li><a href="#skills">Umiejętności</a></li>
+											<li><a href="#ref">Referencje</a></li>
+											<li><a href="#portfolio">Portfolio</a></li>
+											<li><a href="#contact">Kontakt</a></li>
+										</ul>
+							    </div>
 								</div>
 							</nav>
 							<div class="col-xs-12 intro">
@@ -71,29 +78,31 @@
 							</div>
 						</div>
 					</section>
-					<section class="slider-2" id="me">
+					<section class="slider-2 clearfix" id="me">
 						<div class="container">
 							<div class="row">
-								<div class="col-md-5 image">
-									<img src="img/borzecki1.jpg" width="100%" height="100%" alt="Jarosław Borzęcki" title="Jarek">
+								<div class="col-sm-5 image">
+									<img src="img/borzecki1ab.png" alt="Jarosław Borzęcki" title="Jarek">
 								</div>
-								<div class="col-md-7 info">
+								<div class="col-sm-7 info">
 								  <h1>Witaj, jestem Jarosław Borzęcki Front-end Developer z Warszawy!</h1>
 								  <p>Nazywam się Jarosław Borzęcki, mam 27 lat i obecnie mieszkam w Warszawie. Ukończyłem studia na kierunku Geodezja i Kartografia, lecz obecnie zajmuję się front-end'em.
-								  Pasją do kodowanie "zaraziłem się" 3 miesiące temu i od tej pory każdego dnia odkrywam ogrom możliwości, jakie dają technologie z nim związane. Ukończyłem kurs z Kodilli na Junior Front-end Developera i aktualnie poszukuję pracy na to stanowisko.</p>
+								  Ukończyłem kurs z Kodilli na Junior Front-end Developera i aktualnie poszukuję pracy na to stanowisko.</p>
 								  <p>W wolnych chwilach uczęszczam na treningi crossfit, spędzam czas ze znajomymi, a także lubie obejrzeć dobry film lub serial. </p>
 								  <button type="button" class="btn btn-lg">Kontakt</button>
-								  <i class="fa fa-angle-up"></i>
+								  <div class="icon text-right">
+								  	<i class="fa fa-angle-up"></i>
+								  </div>
 								</div>
 							</div>
 						</div>
 					</section>
 					<section class="slider-3" id="skills">
-						<div class="container">
+						<div class="container clearfix">
 							<div class="row">
 								<div class="col-xs-12">
 								  <h2>Umiejętności</h2>
-								  <p>W swoich projektach wykorzystuję przede język HTML5, CSS3, framework Bootstrap v3 oraz system kontroli wersji GitHub. W celu usprawnienia pracy, korzystam również z preprocesora Sass oraz task runner'a Grunt, wraz z niektórymi jego wtyczkami, które w połączeniu przyspieszają kodowanie stron kilkukrotnie, a dzięki temu kodowanie sprawia jeszcze więcej frajdy :) <br> Oprócz nauki ww. technologii, poszerzam swoją widzę z WordPress'a, JavaScript'u oraz jego biblioteki jQuery. Strony wzbogacone o ich skrypty nabierają unikalnego wyglądu.</p>
+								  <p>W swoich projektach wykorzystuję przede język HTML5, CSS3, framework Bootstrap v3 oraz system kontroli wersji GitHub. W celu usprawnienia pracy, korzystam również z preprocesora Sass oraz task runner'a Grunt, wraz z niektórymi jego wtyczkami, które w połączeniu przyspieszają kodowanie stron kilkukrotnie, a dzięki temu kodowanie sprawia jeszcze więcej frajdy :) Oprócz nauki ww. technologii, poszerzam swoją widzę z WordPress'a, JavaScript'u oraz jego biblioteki jQuery. Strony wzbogacone o ich skrypty nabierają unikalnego wyglądu.</p>
 								  <!-- <i class="fa fa-html5"></i>
 								  <i class="fa fa-css3"></i>
 								  <i class="fa fa-wordpress"></i>
@@ -145,7 +154,8 @@
 						</div>
 					</section>
 				</div>
-			</section>
+			</div>
+		</section>
 		<script type="text/javascript" src="js/script.js"></script>
 	</body>
 </html>

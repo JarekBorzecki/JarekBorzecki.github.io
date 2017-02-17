@@ -32,7 +32,7 @@ p
 .slider-1 
 	.container
 		background-color: $white
-		margin: 28px
+		margin: 28px 0
 		border-radius: 20px
 		box-shadow: 0 8px 12px 3px rgba(0,0,0,.1)
 		height: 90vh
@@ -66,39 +66,44 @@ p
 					&:hover
 						color: $black
 
-	.carousel-indicators
-		li
-			background-color: #D6D8D9
-			height: 12px
-			width: 12px
-			&:hover
-				transform: scale(1.2)
-				transition: transform .3s ease
-			
-		.active
-			background-color: #4B4294 
-			
-	.carousel-inner
-		.item
-			height: 80vh
+	.carousel
+		height: 500px
 
-		.carousel-caption
-			text-shadow: none
-			position: absolute
-			top: 10px
-			left: 20px
-			text-align: left
-			color: $black
+		.carousel-indicators
+			li
+				background-color: #D6D8D9
+				height: 12px
+				width: 12px
+				&:hover
+					transform: scale(1.2)
+					transition: transform .3s ease
+				
+			.active
+				background-color: #4B4294 
+				
+		.carousel-inner
+			.item
+				height: 400px
 
-// ************************** Slider-2
+			.carousel-caption
+				text-shadow: none
+				position: absolute
+				top: 10px
+				left: 20px
+				text-align: left
+				color: $black
+
+// ************************** Slider-2 ****************************
 .slider-2	
+	height: 650px
+
 	.image
 		img
 			height: 100%
 			width: 100%
 
 	.info
-		height: 743px
+		padding-top: 5%
 
 		h1
 			font-family: Montserrat, sans-serif
@@ -127,9 +132,6 @@ p
 
 	i.fa
 		color: $white
-		position: absolute
-		right: 40px
-		bottom: 145px
 		font-size: 40px
 		border-radius: 50%
 		background-color: #4B4294
@@ -137,23 +139,145 @@ p
 		&:hover
 			cursor: pointer
 
-// ************************** Slider-3
+// ************************** Slider-3 ***********************
 .slider-3
 	.container
 		background-color: $white
-		margin: 28px
+		margin: 28px 0
 		border-radius: 20px
 		box-shadow: 0 8px 12px 3px rgba(0,0,0,.1)
-		height: 90vh
+		height: 600px
 
 		h2
 			font-size: 50px
+			margin: 150px 0 50px 
+
+		p
+			font-size: 17px
+			margin: 0
+			font-weight: 400
+			line-height: 1.7666em
+			padding: 0 5%
+			text-align: center
 
 
-// ************************** Slider-7 Contact
+// ************************** Slider-7 Contact ************************
 .in-touch		
 	margin-top: 7%
 
 	span
 		margin-left: 3%
 
+ // ******************** Media queries ********************
+
+@media(max-width: 991px)
+	.carousel-indicators
+		margin-bottom: 8%
+
+	.slider-2
+		margin-bottom: 20%
+
+		.image
+			margin-top: 20%
+
+	.slider-3
+		.container
+			h2
+				margin: 80px 0 50px 
+
+@media(max-width: 767px)
+	.slider-1, 
+	.slider-3
+		margin-left: 5%
+		margin-right: 5%
+
+	.carousel-indicators
+		margin-bottom: 0
+
+	.slider-2
+		margin-bottom: 0
+	
+		.image
+			width: 50%
+			margin: 0 auto
+			display: none
+
+@media(max-width: 547px)
+	.slider-2
+		margin-bottom: 12%
+
+
+
+@media(max-width: 528px)
+	.slider-2
+		margin-bottom: 25%
+
+
+@media(max-width: 493px)
+	.slider-3
+		.container
+			height: 630px 
+
+
+@media(max-width: 460px)
+	.slider-2
+		margin-bottom: 40%
+
+	.slider-3
+		.container
+			height: 730px
+
+
+	.slider-4
+		margin-top: 20%
+			
+
+
+@media(max-width: 402px)
+	.slider-2
+		margin-bottom: 60%
+
+	.slider-3
+		margin-top: 10%
+
+
+
+@media(max-width: 388px)
+	.slider-2
+		margin-bottom: 70%
+
+
+
+@media(max-width: 353px)
+	.slider-2
+		margin-bottom: 350px
+
+
+
+@media(max-width: 319px)
+	.slider-2
+		margin-bottom: 400px
+
+
+
+@media(max-width: 313px)
+	.slider-2
+		margin-bottom: 450px
+
+
+
+@media(max-width: 304px)
+	.slider-2
+		margin-bottom: 500px
+
+
+
+@media(max-width: 281px)
+	.slider-2
+		margin-bottom: 600px
+
+
+
+@media(max-width: 278px)
+	.carousel-indicators
+		margin-bottom: 25%
