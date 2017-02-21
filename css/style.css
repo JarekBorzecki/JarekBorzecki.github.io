@@ -21,49 +21,49 @@ p {
 [class*='slider-'] {
   height: 100vh; }
 
-.slider-1 {
+.home {
   background-color: #FFF;
   margin: 28px;
   border-radius: 20px;
   box-shadow: 0 8px 12px 3px rgba(0, 0, 0, 0.1);
-  height: 90vh; }
-  .slider-1 .transparent-bg {
-    background-color: rgba(255, 255, 255, 0.5);
+  height: 91.5vh; }
+  .home .transparent-bg {
+    background-color: rgba(255, 255, 255, 0);
     border: none;
     margin-bottom: 0; }
-    .slider-1 .transparent-bg .navbar-nav li a {
+    .home .transparent-bg .navbar-nav li a {
       color: #000;
       letter-spacing: 1px; }
-      .slider-1 .transparent-bg .navbar-nav li a:hover {
+      .home .transparent-bg .navbar-nav li a:hover {
         color: rgba(0, 0, 0, 0.3); }
-    .slider-1 .transparent-bg .navbar-nav .active a {
+    .home .transparent-bg .navbar-nav .active a {
       color: #000;
       background-color: transparent;
       letter-spacing: 1px; }
-      .slider-1 .transparent-bg .navbar-nav .active a:hover {
+      .home .transparent-bg .navbar-nav .active a:hover {
         background-color: transparent;
         color: rgba(0, 0, 0, 0.3); }
-    .slider-1 .transparent-bg .navbar-header .navbar-brand {
+    .home .transparent-bg .navbar-header .navbar-brand {
       font-family: Pacifico, cursive;
       color: #000; }
-      .slider-1 .transparent-bg .navbar-header .navbar-brand:hover {
+      .home .transparent-bg .navbar-header .navbar-brand:hover {
         color: #000; }
-    .slider-1 .transparent-bg .navbar-header img {
+    .home .transparent-bg .navbar-header img {
       height: 50px; }
-  .slider-1 .carousel {
+  .home .carousel {
     height: 500px; }
-    .slider-1 .carousel .carousel-indicators li {
+    .home .carousel .carousel-indicators li {
       background-color: #D6D8D9;
       height: 12px;
       width: 12px; }
-      .slider-1 .carousel .carousel-indicators li:hover {
+      .home .carousel .carousel-indicators li:hover {
         transform: scale(1.2);
         transition: transform .3s ease; }
-    .slider-1 .carousel .carousel-indicators .active {
+    .home .carousel .carousel-indicators .active {
       background-color: #4B4294; }
-    .slider-1 .carousel .carousel-inner .item {
+    .home .carousel .carousel-inner .item {
       height: 400px; }
-    .slider-1 .carousel .carousel-inner .carousel-caption {
+    .home .carousel .carousel-inner .carousel-caption {
       text-shadow: none;
       position: absolute;
       top: 10px;
@@ -120,25 +120,31 @@ p {
     font-size: 50px; }
   .slider-3 [class*="col-"] {
     text-align: center;
-    margin: 28px;
     margin-top: 30px; }
   .slider-3 .offset-left {
     margin-left: 100px; }
   .slider-3 .offset-right {
     margin-right: 100px; }
   .slider-3 h3 {
-    font-size: 20px; }
-  .slider-3 i {
+    font-size: 20px;
+    font-family: Montserrat;
+    color: #444444; }
+  .slider-3 [class*="devicon-"] {
     color: #42378E;
-    font-size: 40px; }
+    font-size: 50px;
+    transition: all 0.3s cubic-bezier(0.38, 3, 0.51, 1.3);
+    webkit-transition: all 0.3s cubic-bezier(0.38, 3, 0.51, 1.3); }
+    .slider-3 [class*="devicon-"]:hover {
+      transform: translate3d(0, -3px, 0); }
   .slider-3 p {
-    font-size: 12px;
+    font-size: 14px;
+    font-family: 'Varela Round';
     margin: 0;
     font-weight: 400;
     line-height: 1.7666em;
     padding: 0 5%;
     text-align: center;
-    color: #C6CBD3; }
+    color: #a2a2a2; }
   .slider-3 .icon {
     position: absolute;
     right: 30px;
