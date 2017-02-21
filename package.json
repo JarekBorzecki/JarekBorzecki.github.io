@@ -1,7 +1,6 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,5 +12,20 @@
     "grunt-browser-sync": "^2.2.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-sass": "^2.0.0"
-  }
+  },
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JarekBorzecki/JarekBorzecki.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JarekBorzecki/JarekBorzecki.github.io/issues"
+  },
+  "homepage": "https://github.com/JarekBorzecki/JarekBorzecki.github.io#readme",
+  "description": ""
 }
