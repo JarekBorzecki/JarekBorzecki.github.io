@@ -48,6 +48,8 @@ p {
       color: #000; }
       .slider-1 .transparent-bg .navbar-header .navbar-brand:hover {
         color: #000; }
+    .slider-1 .transparent-bg .navbar-header img {
+      height: 50px; }
   .slider-1 .carousel {
     height: 500px; }
     .slider-1 .carousel .carousel-indicators li {
