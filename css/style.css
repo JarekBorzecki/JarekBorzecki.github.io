@@ -21,54 +21,53 @@ p {
 [class*='slider-'] {
   height: 100vh; }
 
-.slider-1 .container {
+.slider-1 {
   background-color: #FFF;
-  margin: 28px 0;
+  margin: 28px;
   border-radius: 20px;
   box-shadow: 0 8px 12px 3px rgba(0, 0, 0, 0.1);
   height: 90vh; }
-  .slider-1 .container .transparent-bg {
+  .slider-1 .transparent-bg {
     background-color: rgba(255, 255, 255, 0.5);
     border: none;
     margin-bottom: 0; }
-    .slider-1 .container .transparent-bg .navbar-nav li a {
+    .slider-1 .transparent-bg .navbar-nav li a {
       color: #000;
       letter-spacing: 1px; }
-      .slider-1 .container .transparent-bg .navbar-nav li a:hover {
+      .slider-1 .transparent-bg .navbar-nav li a:hover {
         color: rgba(0, 0, 0, 0.3); }
-    .slider-1 .container .transparent-bg .navbar-nav .active a {
+    .slider-1 .transparent-bg .navbar-nav .active a {
       color: #000;
       background-color: transparent;
       letter-spacing: 1px; }
-      .slider-1 .container .transparent-bg .navbar-nav .active a:hover {
+      .slider-1 .transparent-bg .navbar-nav .active a:hover {
         background-color: transparent;
         color: rgba(0, 0, 0, 0.3); }
-    .slider-1 .container .transparent-bg .navbar-header .navbar-brand {
+    .slider-1 .transparent-bg .navbar-header .navbar-brand {
       font-family: Pacifico, cursive;
       color: #000; }
-      .slider-1 .container .transparent-bg .navbar-header .navbar-brand:hover {
+      .slider-1 .transparent-bg .navbar-header .navbar-brand:hover {
         color: #000; }
-
-.slider-1 .carousel {
-  height: 500px; }
-  .slider-1 .carousel .carousel-indicators li {
-    background-color: #D6D8D9;
-    height: 12px;
-    width: 12px; }
-    .slider-1 .carousel .carousel-indicators li:hover {
-      transform: scale(1.2);
-      transition: transform .3s ease; }
-  .slider-1 .carousel .carousel-indicators .active {
-    background-color: #4B4294; }
-  .slider-1 .carousel .carousel-inner .item {
-    height: 400px; }
-  .slider-1 .carousel .carousel-inner .carousel-caption {
-    text-shadow: none;
-    position: absolute;
-    top: 10px;
-    left: 20px;
-    text-align: left;
-    color: #000; }
+  .slider-1 .carousel {
+    height: 500px; }
+    .slider-1 .carousel .carousel-indicators li {
+      background-color: #D6D8D9;
+      height: 12px;
+      width: 12px; }
+      .slider-1 .carousel .carousel-indicators li:hover {
+        transform: scale(1.2);
+        transition: transform .3s ease; }
+    .slider-1 .carousel .carousel-indicators .active {
+      background-color: #4B4294; }
+    .slider-1 .carousel .carousel-inner .item {
+      height: 400px; }
+    .slider-1 .carousel .carousel-inner .carousel-caption {
+      text-shadow: none;
+      position: absolute;
+      top: 10px;
+      left: 20px;
+      text-align: left;
+      color: #000; }
 
 .slider-2 {
   height: 650px; }
@@ -108,22 +107,48 @@ p {
     .slider-2 i.fa:hover {
       cursor: pointer; }
 
-.slider-3 .container {
+.slider-3 {
   background-color: #FFF;
-  margin: 28px 0;
+  margin: 28px;
   border-radius: 20px;
   box-shadow: 0 8px 12px 3px rgba(0, 0, 0, 0.1);
-  height: 600px; }
-  .slider-3 .container h2 {
-    font-size: 50px;
-    margin: 150px 0 50px; }
-  .slider-3 .container p {
-    font-size: 17px;
+  height: 600px;
+  position: relative; }
+  .slider-3 h2 {
+    font-size: 50px; }
+  .slider-3 [class*="col-"] {
+    text-align: center;
+    margin: 28px;
+    margin-top: 30px; }
+  .slider-3 .offset-left {
+    margin-left: 100px; }
+  .slider-3 .offset-right {
+    margin-right: 100px; }
+  .slider-3 h3 {
+    font-size: 20px; }
+  .slider-3 i {
+    color: #42378E;
+    font-size: 40px; }
+  .slider-3 p {
+    font-size: 12px;
     margin: 0;
     font-weight: 400;
     line-height: 1.7666em;
     padding: 0 5%;
-    text-align: center; }
+    text-align: center;
+    color: #C6CBD3; }
+  .slider-3 .icon {
+    position: absolute;
+    right: 30px;
+    bottom: 20px; }
+  .slider-3 i.fa {
+    color: #FFF;
+    font-size: 40px;
+    border-radius: 50%;
+    background-color: #4B4294;
+    padding: 12px 20px; }
+    .slider-3 i.fa:hover {
+      cursor: pointer; }
 
 .in-touch {
   margin-top: 7%; }
@@ -170,7 +195,7 @@ p {
   .slider-2 {
     margin-bottom: 40%; }
   .slider-3 .container {
-    height: 730px; }
+    min-height: 730px; }
   .slider-4 {
     margin-top: 20%; } }
 
