@@ -5,6 +5,13 @@ $black: #000
 $white: #FFF
 $absolute: absolute
 
+@mixin transform($translate3d)
+	transform: $translate3d
+	-webkit-transform: $translate3d
+	-moz-transform: $translate3d
+	-ms-transform: $translate3d
+	-o-transform: $translate3d
+
 *
 	box-sizing: border-box
 
@@ -170,12 +177,14 @@ p
 		color: rgb(68, 68, 68)
 
 	[class*="devicon-"]
+		cursor: pointer
 		color: #42378E
 		font-size: 50px
 		transition: all .3s cubic-bezier(0.38, 3, 0.51, 1.3)
 		webkit-transition: all .3s cubic-bezier(0.38, 3, 0.51, 1.3)
 		&:hover
-	    transform: translate3d(0,-3px,0)
+	    @include transform(translate3d(0px,-3px,0px))
+	    transform: scale(1.2)
 
 	p
 		font-size: 14px
@@ -187,17 +196,16 @@ p
 		text-align: center
 		color: rgb(162, 162, 162)
 
-	.icon
-		position: absolute
-		right: 30px
-		bottom: 20px
-
 	i.fa
 		color: $white
 		font-size: 40px
 		border-radius: 50%
 		background-color: #4B4294
 		padding: 12px 20px
+		position: fixed
+		right: 28px
+		bottom: 28px
+		z-index: 1
 		&:hover
 			cursor: pointer
 
