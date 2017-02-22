@@ -72,12 +72,14 @@ p {
       color: #000; }
 
 .slider-2 {
-  height: 650px; }
+  height: 650px;
+  margin-bottom: 0; }
   .slider-2 .image img {
+    margin-top: 37px;
     height: 100%;
     width: 100%; }
   .slider-2 .info {
-    padding-top: 5%; }
+    padding-top: 7%; }
     .slider-2 .info h1 {
       font-family: Montserrat, sans-serif;
       color: #FFF;
@@ -111,7 +113,7 @@ p {
 
 .slider-3 {
   background-color: #FFF;
-  margin: 28px;
+  margin: 0 28px 28px 28px;
   border-radius: 20px;
   box-shadow: 0 8px 12px 3px rgba(0, 0, 0, 0.1);
   height: 600px;
@@ -121,10 +123,6 @@ p {
   .slider-3 [class*="col-"] {
     text-align: center;
     margin-top: 30px; }
-  .slider-3 .offset-left {
-    margin-left: 100px; }
-  .slider-3 .offset-right {
-    margin-right: 100px; }
   .slider-3 h3 {
     font-size: 20px;
     font-family: Montserrat;
