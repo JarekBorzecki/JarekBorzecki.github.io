@@ -32,7 +32,9 @@ p {
     border: none;
     margin-bottom: 0; }
     .home .transparent-bg .navbar-nav li a {
-      color: #000;
+      font-size: 15px;
+      font-family: Montserrat, sans-serif;
+      color: #444444 !important;
       letter-spacing: 1px; }
       .home .transparent-bg .navbar-nav li a:hover {
         color: rgba(0, 0, 0, 0.3); }
@@ -50,6 +52,9 @@ p {
         color: #000; }
     .home .transparent-bg .navbar-header img {
       height: 50px; }
+  .home .navbar-default .navbar-collapse {
+    border-color: transparent;
+    padding: 15px 35px 20px 0; }
   .home .carousel {
     height: 500px; }
     .home .carousel .carousel-indicators li {
@@ -116,10 +121,14 @@ p {
   margin: 0 28px 28px 28px;
   border-radius: 20px;
   box-shadow: 0 8px 12px 3px rgba(0, 0, 0, 0.1);
-  height: 600px;
+  height: 100vh;
   position: relative; }
   .slider-3 h2 {
-    font-size: 50px; }
+    font-family: Montserrat, sans-serif;
+    font-size: 50px;
+    margin-top: 95px;
+    font-weight: 700;
+    margin-bottom: 20px; }
   .slider-3 [class*="col-"] {
     text-align: center;
     margin-top: 30px; }
@@ -128,6 +137,7 @@ p {
     font-family: Montserrat;
     color: #444444; }
   .slider-3 [class*="devicon-"] {
+    display: block;
     cursor: pointer;
     color: #42378E;
     font-size: 50px;
@@ -142,13 +152,11 @@ p {
       transform: scale(1.2); }
   .slider-3 p {
     font-size: 14px;
-    font-family: 'Varela Round';
-    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+    color: #A2A2A2;
     font-weight: 400;
-    line-height: 1.7666em;
-    padding: 0 5%;
-    text-align: center;
-    color: #a2a2a2; }
+    line-height: 25px;
+    text-align: center; }
   .slider-3 i.fa {
     color: #FFF;
     font-size: 40px;
