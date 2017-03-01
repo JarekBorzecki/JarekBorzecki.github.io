@@ -70,6 +70,9 @@ p
 			.navbar-brand 
 				font-family: Pacifico, cursive
 				color: $black
+				padding-left: 40px
+				padding-top: 15px
+				height: auto
 				&:hover
 					color: $black
 
@@ -79,7 +82,7 @@ p
 	.navbar-default
 		.navbar-collapse
 			border-color: transparent
-			padding: 15px 35px 20px 0
+			padding: 25px 35px 20px 0
 
 	.carousel
 		height: 500px
@@ -107,6 +110,29 @@ p
 				left: 20px
 				text-align: left
 				color: $black
+
+				h2
+					font-size: 60px
+					line-height: 60px
+					font-weight: 700
+					color: rgb(68, 68, 68)
+					font-family: Montserrat
+					letter-spacing: -2px
+					text-align: left
+
+				p 
+					font-family: "Varela Round",sans-serif
+					text-align: left
+					font-size: 16px
+					line-height: 35px
+					font-weight: 400
+					color: rgb(112, 112, 112)
+
+				.img-background-1
+					background-image: url(/img/superman.jpg);
+			    background-size: 74%;
+			    background-repeat: no-repeat;
+
 
 // ************************** Slider-2 ****************************
 .slider-2	
@@ -200,6 +226,9 @@ p
 		line-height: 25px
 		text-align: center
 
+	.icon
+		opacity: 0
+
 	i.fa
 		color: $white
 		font-size: 40px
@@ -213,6 +242,9 @@ p
 		&:hover
 			cursor: pointer
 
+	.arrow-opacity
+		opacity: 1
+
 
 // ************************** Slider-6 Contact ************************
 .in-touch		
@@ -222,6 +254,12 @@ p
 		margin-left: 3%
 
  // ******************** Media queries ********************
+
+@media(min-width: 1200px)
+	.carousel
+		.container
+			padding-left: 40px
+			padding-right: 40px
 
 @media(max-width: 991px)
 	.carousel-indicators
