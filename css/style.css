@@ -76,7 +76,7 @@ p {
       left: 20px;
       text-align: left;
       color: #000; }
-      .home .carousel .carousel-inner .carousel-caption h2 {
+      .home .carousel .carousel-inner .carousel-caption .row h2 {
         font-size: 60px;
         line-height: 60px;
         font-weight: 700;
@@ -84,15 +84,32 @@ p {
         font-family: Montserrat;
         letter-spacing: -2px;
         text-align: left; }
-      .home .carousel .carousel-inner .carousel-caption p {
+      .home .carousel .carousel-inner .carousel-caption .row p {
         font-family: "Varela Round",sans-serif;
         text-align: left;
         font-size: 16px;
         line-height: 35px;
         font-weight: 400;
         color: #707070; }
-      .home .carousel .carousel-inner .carousel-caption .img-background-1 {
-        background-image: url(img/superman.jpg); }
+
+.img-background-1 {
+  background-image: url(/img/superman.jpg); }
+
+.img-background-2 {
+  background-image: url(/img/zarowka.jpg); }
+
+.img-background-3 {
+  background-image: url(/img/lupa.jpg); }
+
+.img-background-4 {
+  background-image: url(/img/superman.jpg); }
+
+.img-background {
+  height: 400px;
+  background-size: 79%;
+  background-position-y: 100%;
+  background-position-x: 76%;
+  background-repeat: no-repeat; }
 
 .slider-2 {
   height: 650px;
