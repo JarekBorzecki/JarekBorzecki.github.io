@@ -215,13 +215,16 @@ p {
     opacity: 1; }
 
 .slider-4 {
-  margin-bottom: 150px; }
+  margin-bottom: 150px;
+  font-family: 'Open Sans';
+  font-family: Montserrat; }
   .slider-4 .container h2 {
     font-family: Montserrat, sans-serif;
     font-size: 50px;
     margin-top: 95px;
     font-weight: 700;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    color: #FFF; }
 
 .portfolioFilter {
   padding: 15px 0; }
@@ -238,12 +241,19 @@ p {
     .portfolioFilter a:hover {
       text-decoration: none; }
 
-.portfolioFilter a.current {
-  background: #1e1e1e;
-  color: #f9f9f9; }
+.portfolioFilter {
+  padding: 15px 0;
+  text-align: center; }
+  .portfolioFilter a.current {
+    background: #4B4294;
+    padding: 11px;
+    color: #f9f9f9;
+    text-decoration: none; }
 
 .portfolioContainer {
-  border: 1px solid blue;
+  border: 2px dashed white;
+  width: 1065px;
+  margin: 0 auto;
   border-radius: 3px; }
   .portfolioContainer img {
     margin: 5px;
