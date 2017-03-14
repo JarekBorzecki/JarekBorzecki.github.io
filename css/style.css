@@ -66,7 +66,10 @@ p {
         transform: scale(1.2);
         transition: transform .3s ease; }
     .home .carousel .carousel-indicators .active {
-      background-color: #4B4294; }
+      background-color: #4B4294;
+      border: 0;
+      width: 15px;
+      height: 15px; }
     .home .carousel .carousel-inner .item {
       height: 400px; }
     .home .carousel .carousel-inner .carousel-caption {
@@ -211,27 +214,36 @@ p {
   .slider-3 .arrow-opacity {
     opacity: 1; }
 
+.slider-4 {
+  margin-bottom: 150px; }
+  .slider-4 .container h2 {
+    font-family: Montserrat, sans-serif;
+    font-size: 50px;
+    margin-top: 95px;
+    font-weight: 700;
+    margin-bottom: 20px; }
+
 .portfolioFilter {
   padding: 15px 0; }
   .portfolioFilter a {
     margin-right: 6px;
     color: #666;
     text-decoration: none;
-    border: 1px solid #ccc;
     padding: 4px 15px;
     border-radius: 50px;
     display: inline-block;
     background-color: #FFF; }
     .portfolioFilter a:focus {
       outline: none; }
+    .portfolioFilter a:hover {
+      text-decoration: none; }
 
 .portfolioFilter a.current {
   background: #1e1e1e;
-  border: 1px solid #1e1e1e;
   color: #f9f9f9; }
 
 .portfolioContainer {
-  border: 1px solid #eee;
+  border: 1px solid blue;
   border-radius: 3px; }
   .portfolioContainer img {
     margin: 5px;
@@ -257,7 +269,8 @@ p {
 .slider-5 .container {
   background-color: #FFF;
   border-radius: 20px;
-  padding: 20px; }
+  padding: 20px;
+  height: 91.5vh; }
   .slider-5 .container .col-md-5 .col-sm-6 p {
     margin-bottom: 30px; }
   .slider-5 .container .col-md-5 .col-sm-6 h4 {
@@ -275,7 +288,7 @@ p {
   .slider-5 .container form textarea {
     resize: none;
     padding: 15px 20px;
-    margin-bottom: 30px; }
+    margin-bottom: 60px; }
   .slider-5 .container form .btn {
     padding: 18px 65px;
     background-color: #4B4294;
