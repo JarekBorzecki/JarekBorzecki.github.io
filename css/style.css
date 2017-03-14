@@ -116,6 +116,20 @@ p {
 .img-background-4 {
   background-image: url(http://i66.tinypic.com/2psgg2c.jpg); }
 
+.sticky {
+  position: fixed;
+  background-color: #FFFFFF;
+  width: 1293px;
+  padding: 10px 0;
+  top: 0;
+  left: 28px;
+  z-index: 100;
+  border-top: 0;
+  -moz-transition: padding .3s ease-in;
+  -o-transition: padding .3s ease-in;
+  -webkit-transition: padding .3s ease-in;
+  transition: padding .3s ease-in; }
+
 .slider-2 {
   height: 650px;
   margin-bottom: 0; }
