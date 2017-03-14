@@ -44,5 +44,22 @@ $(window).load(function(){
             }
          });
          return false;
-    }); 
+    });
+
+    var affixElement = '#navbar-main';
+
+    $(affixElement).affix({
+      offset: {
+        top: function () {
+          return (this.top = $(affixElement).offset().top)
+        },
+        // when start #footer 
+        bottom: function () { 
+          return (this.bottom = $('#footer').outerHeight(true))
+        }
+      }
+    });
+
 });
+
+

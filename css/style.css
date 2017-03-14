@@ -16,6 +16,18 @@ p {
   color: #000;
   font-family: 'Varela Round', sans-serif; }
 
+#navbar-main.affixed-top {
+  background: black; }
+
+#navbar-main.affix {
+  background: gray;
+  top: 0;
+  left: 0;
+  right: 0; }
+
+#navbar-main.affix-bottom {
+  background: red; }
+
 [class*='slider-'] {
   height: 100vh; }
 
