@@ -156,12 +156,13 @@ p
 .sticky 
 	position: fixed
 	background-color: #FFFFFF
-	width: 1293px
-	padding: 10px 0
+	padding: 0
 	top: 0
 	left: 28px
-	z-index: 100
+	right: 43px
+	z-index: 200
 	border-top: 0
+	box-shadow: 1px 1px 3px rgba(0,0,0,.1)
 	-moz-transition: padding .3s ease-in
 	-o-transition: padding .3s ease-in
 	-webkit-transition: padding .3s ease-in
@@ -354,19 +355,28 @@ p
 
 // ************************** Slider-6 Contact ************************
 .slider-5
+	background-color: $white
+	margin: 0 28px 28px 28px
+	border-radius: 20px
+	box-shadow: 0 8px 12px 3px rgba(0,0,0,.1)
+
 	.container
-		background-color: $white
-		border-radius: 20px
-		padding: 20px
-		height: 91.5vh
+		padding-top: 50px
+
+		h1
+			font-size: 50px
+			font-weight: 700
+			margin-bottom: 30px
+			text-align: center
 
 		.col-md-5
 			.col-sm-6
 				p
 					margin-bottom: 30px
 
-				h4
+				h2
 					margin-top: 30px
+					text-align: left
 
 			p
 				line-height: 25px
@@ -383,11 +393,12 @@ p
 
 			input
 				padding: 25px 
+				margin-bottom: 30px
 
 			textarea
 				resize: none
 				padding: 15px 20px
-				margin-bottom: 60px
+				margin-bottom: 40px
 
 			.btn
 				padding: 18px 65px

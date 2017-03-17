@@ -1,14 +1,14 @@
 
 // $(document).ready(function() {
-// 	// Hiding and showing navigation-arrow
-// // 	$(window).scroll(function() {
-// // 		if ($(window).scrollTop() > 600) {
-// // 			$('.navigation-arrow').css('opacity', '0');
+//  // Hiding and showing navigation-arrow
+// //   $(window).scroll(function() {
+// //       if ($(window).scrollTop() > 600) {
+// //           $('.navigation-arrow').css('opacity', '0');
 
-// // 		} else {
-// // 			$('.navigation-arrow').fadeOut();
-// // 		}
-// // 	});
+// //       } else {
+// //           $('.navigation-arrow').fadeOut();
+// //       }
+// //   });
 // })
 
 $(document).ready(function() {
@@ -17,35 +17,34 @@ $(document).ready(function() {
         if (scroll >= 500) {
         $(".icon").addClass("arrow-opacity");
         }
-    });
 
-        $(window).load(function(){
-            var $container = $('.portfolioContainer');
+    $(window).load(function(){
+        var $container = $('.portfolioContainer');
+        $container.isotope({
+            filter: '*',
+            animationOptions: {
+                duration: 750,
+                easing: 'linear',
+                queue: false
+            }
+        });
+         
+        $('.portfolioFilter a').click(function(){
+            $('.portfolioFilter .current').removeClass('current');
+            $(this).addClass('current');
+         
+            var selector = $(this).attr('data-filter');
             $container.isotope({
-                filter: '*',
+                filter: selector,
                 animationOptions: {
                     duration: 750,
                     easing: 'linear',
                     queue: false
                 }
             });
-         
-            $('.portfolioFilter a').click(function(){
-                $('.portfolioFilter .current').removeClass('current');
-                $(this).addClass('current');
-         
-                var selector = $(this).attr('data-filter');
-                $container.isotope({
-                    filter: selector,
-                    animationOptions: {
-                        duration: 750,
-                        easing: 'linear',
-                        queue: false
-                    }
-                });
-                 return false;
-            });
+             return false;
         });
+    });
 
 
 
@@ -60,18 +59,25 @@ $(document).ready(function() {
     // if we've scrolled more than the navigation, change its position to fixed to stick to top,
     // otherwise change it back to relative
     if (scrollTop > stickyNavTop) {
-    $('.navbar-collapse').addClass('sticky').css({left: '775px'});
-    $('.navbar-header').addClass('sticky').css({right: '28px'});
-    } else {
-    $('.navbar-collapse').removeClass('sticky');
-    $('.navbar-header').removeClass('sticky');
-    }
-    };
+        $('.navbar-collapse').addClass('sticky').css({
+            'left': '175px',
+            'padding': '10px'
 
+        });
+        $('.navbar-header').addClass('sticky').css({
+            'right': '28px'
+        });
+
+        } else {
+        $('.navbar-collapse').removeClass('sticky');
+        $('.navbar-header').removeClass('sticky');
+        }
+    };
     stickyNav();
     // and run it again every time you scroll
     $(window).scroll(function() {
     stickyNav();
     });
+});
 });
 

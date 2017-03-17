@@ -119,12 +119,13 @@ p {
 .sticky {
   position: fixed;
   background-color: #FFFFFF;
-  width: 1293px;
-  padding: 10px 0;
+  padding: 0;
   top: 0;
   left: 28px;
-  z-index: 100;
+  right: 43px;
+  z-index: 200;
   border-top: 0;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
   -moz-transition: padding .3s ease-in;
   -o-transition: padding .3s ease-in;
   -webkit-transition: padding .3s ease-in;
@@ -290,35 +291,44 @@ p {
 .isotope .isotope-item {
   transition-property: transform, opacity; }
 
-.slider-5 .container {
+.slider-5 {
   background-color: #FFF;
+  margin: 0 28px 28px 28px;
   border-radius: 20px;
-  padding: 20px;
-  height: 91.5vh; }
-  .slider-5 .container .col-md-5 .col-sm-6 p {
-    margin-bottom: 30px; }
-  .slider-5 .container .col-md-5 .col-sm-6 h4 {
-    margin-top: 30px; }
-  .slider-5 .container .col-md-5 p {
-    line-height: 25px;
-    color: #A2A2A2; }
-  .slider-5 .container .col-md-6 h2 {
-    margin-bottom: 30px; }
-  .slider-5 .container form label {
-    font-size: 17px;
-    font-weight: normal; }
-  .slider-5 .container form input {
-    padding: 25px; }
-  .slider-5 .container form textarea {
-    resize: none;
-    padding: 15px 20px;
-    margin-bottom: 60px; }
-  .slider-5 .container form .btn {
-    padding: 18px 65px;
-    background-color: #4B4294;
-    color: #FFF;
-    font-size: 16px;
-    border-radius: 50px; }
+  box-shadow: 0 8px 12px 3px rgba(0, 0, 0, 0.1); }
+  .slider-5 .container {
+    padding-top: 50px; }
+    .slider-5 .container h1 {
+      font-size: 50px;
+      font-weight: 700;
+      margin-bottom: 30px;
+      text-align: center; }
+    .slider-5 .container .col-md-5 .col-sm-6 p {
+      margin-bottom: 30px; }
+    .slider-5 .container .col-md-5 .col-sm-6 h2 {
+      margin-top: 30px;
+      text-align: left; }
+    .slider-5 .container .col-md-5 p {
+      line-height: 25px;
+      color: #A2A2A2; }
+    .slider-5 .container .col-md-6 h2 {
+      margin-bottom: 30px; }
+    .slider-5 .container form label {
+      font-size: 17px;
+      font-weight: normal; }
+    .slider-5 .container form input {
+      padding: 25px;
+      margin-bottom: 30px; }
+    .slider-5 .container form textarea {
+      resize: none;
+      padding: 15px 20px;
+      margin-bottom: 40px; }
+    .slider-5 .container form .btn {
+      padding: 18px 65px;
+      background-color: #4B4294;
+      color: #FFF;
+      font-size: 16px;
+      border-radius: 50px; }
 
 @media (min-width: 1200px) {
   .carousel .container {
