@@ -1,290 +1,44 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Portfolio</title>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Szachy</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="
-		sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext,vietnamese" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Varela+Round&amp;subset=hebrew,latin-ext,vietnamese" rel="stylesheet">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<link href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+		<script type="text/javascript" src="js/script.js"></script>
 	</head>
 	<body>
-		<!-- <section class="wrapper"> -->
-		<section class="home" id="intro">
-			<div class="container-fluid">
-				<div class="row">
-					<nav class="navbar navbar-default transparent-bg">
-						<div class="container-fluid">
-							<div class="navbar-header">
-								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-							    	<span class="icon-bar"></span>
-							    	<span class="icon-bar"></span>
-							    	<span class="icon-bar"></span> 
-							    </button>
-								<a class="navbar-brand" href="#"><img src="img/logo.png"></a>
-							</div>
-							<div class="collapse navbar-collapse" id="myNavbar">
-								<ul class="nav navbar-nav navbar-right menu-style">
-									<li class="active"><a href="#homeSection">Home</a></li>
-									<li><a href="#me">O mnie</a></li>
-									<li><a href="#skills">Umiejętności</a></li>
-									<li><a href="#portfolio">Portfolio</a></li>
-									<li><a href="#contact">Kontakt</a></li>
-								</ul>
-							</div>
-						</div>
-					</nav>
-					<div class="col-xs-12">
-						<div id="myCarousel" class="carousel slide" data-ride="carousel">
-							<ol class="carousel-indicators">
-								<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-								<li data-target="#myCarousel" data-slide-to="1"></li>
-								<li data-target="#myCarousel" data-slide-to="2"></li>
-								<li data-target="#myCarousel" data-slide-to="3"></li>
-							</ol>
-							<div class="carousel-inner" role="listbox">
-								<div class="item active">
-									<div class="carousel-caption">
-									  	<div class="container">
-									  		<div class="row">
-									  			<div class="col-md-6">
-												    <h2 class="animate-1">Front-end <span>developer</span></h2>
-												    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-												    tempor incididunt ut labore et dolore magna aliqua. </p>
-												</div>
-												<div class="col-md-6 img-background-1 img-background">
-												</div>
-											</div>
-									  	</div>
-									</div>
-								</div>
-								<div class="item">
-									<div class="carousel-caption">
-										<div class="container">
-									  		<div class="row">
-									  			<div class="col-md-6">
-										  			<h2>HTML5</h2>
-													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-													tempor incididunt ut labore et dolore magna aliqua. </p>
-												</div>
-												<div class="col-md-6 img-background-2 img-background">
-												</div>
-											</div>
-									  	</div>
-									</div>
-								</div>
-								<div class="item">
-									<div class="carousel-caption">
-									    <div class="container">
-									  		<div class="row">
-									  			<div class="col-md-6">
-											    	<h2>CSS3</h2>
-											    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-											    	tempor incididunt ut labore et dolore magna aliqua. </p>
-												</div>
-												<div class="col-md-6 img-background-3 img-background">
-												</div>
-											</div>
-								  		</div>
-								  	</div>
-								</div>
-								<div class="item">
-								  	<div class="carousel-caption">
-								    	<div class="container">
-								  			<div class="row">
-								  				<div class="col-md-6">
-											    	<h2>JavaScript</h2>
-												    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-												   	tempor incididunt ut labore et dolore magna aliqua. </p>
-												</div>
-												<div class="col-md-6 img-background-4 img-background">
-												</div>
-											</div>
-										</div>
-								  	</div>
-								</div>
-							</div>
-						</div>
-					</div>
+		<section id="welcome">
+			<h1>SZACHY</h1> 
+			<div id="instructions">
+				<div id="moves">
+					<figure>
+						<img src="img/gameplay.png">
+						<figcaption>
+							Rys. 1 Naciśnij i przytrzymaj lewy przycisk myszy na wybranej figurze. Pole otoczone ramką w kolorze żółtym oznacza możliwy ruch. Z kolei pole o czerwonym obramowaniu oznacza możliwe bicia
+						</figcaption>
+					</figure>
+				</div>
+				<div id="strikes">
+					<figure>
+						<img src="img/strike.png">
+						<figcaption>
+							Rys. 2 W celu zbicia przeciwnego pionka, lub przemieszczenia się na inne pole, przytrzymaj i przeciągnij swoją figurę w wyznaczone miejsce. 
+						</figcaption>
+					</figure>
 				</div>
 			</div>
+			<h2>Naciśnij start, aby rozpocząć grę</h2>
+			<button id="start_button">START</button>
 		</section>
-		<section class="slider-2" id="me">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-5 image">
-						<figure>
-							<img src="img/jarekborzecki.png" alt="Jarosław Borzęcki" title="Jarek">
-						</figure>
-					</div>
-					<div class="col-sm-7 info">
-					    <h1 class="animate-2">Witaj, jestem Jarosław Borzęcki Front-end Developer z Warszawy!</h1>
-						<p>Nazywam się Jarosław Borzęcki, mam 27 lat i obecnie mieszkam w Warszawie. Ukończyłem studia na kierunku Geodezja i Kartografia, lecz obecnie zajmuję się front-end'em.
-						Ukończyłem kurs z Kodilli na Junior Front-end Developera i aktualnie poszukuję pracy na to stanowisko.</p>
-						<p>W wolnych chwilach uczęszczam na treningi crossfit, spędzam czas ze znajomymi, a także lubie obejrzeć dobry film lub serial. </p>
-						<button type="button" class="btn btn-lg">Kontakt</button>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="slider-3" id="skills">
-			<div class="container">
-				<div class="row first-row">
-					<h2>Umiejętności</h2>
-					<div class="col-xs-12 col-md-3 animate-1">
-						<i class="devicon-html5-plain"></i>
-						<h3>HTML5</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-					</div>
-					<div class="col-xs-12 col-md-3 animate-1">
-						<i class="devicon-css3-plain"></i>
-						<h3>CSS3</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-					</div>
-					<div class="col-xs-12 col-md-3 animate-1">
-						<i class="devicon-sass-original"></i>
-						<h3>Sass</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-					</div>
-					<div class="col-xs-12 col-md-3 animate-1">
-						<i class="devicon-bootstrap-plain"></i>
-						<h3>Bootstrap</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-					</div>
-				</div>
-				<div class="row second-row">
-					<div class="col-xs-12 col-md-3 animate-1">
-						<i class="devicon-javascript-plain"></i>
-						<h3>JavaScript</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-					</div>
-					<div class="col-xs-12 col-md-3 animate-1">
-						<i class="devicon-jquery-plain"></i>
-						<h3>jQuery</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-					</div>
-					<div class="col-xs-12 col-md-3 animate-1">
-						<i class="devicon-github-plain"></i>
-						<h3>GitHub</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-					</div>
-					<div class="col-xs-12 col-md-3 animate-1">
-						<i class="devicon-java-plain"></i>
-						<h3>Java</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-					</div>
-				</div>
-				<div class="icon text-right">
-					<a href="#intro"><i class="fa fa-angle-up navigation-arrow"></i></a>
-				</div>
-								  <!-- <p>W swoich projektach wykorzystuję przede język HTML5, CSS3, framework Bootstrap v3 oraz system kontroli wersji GitHub. W celu usprawnienia pracy, korzystam również z preprocesora Sass oraz task runner'a Grunt, wraz z niektórymi jego wtyczkami, które w połączeniu przyspieszają kodowanie stron kilkukrotnie, a dzięki temu kodowanie sprawia jeszcze więcej frajdy :) Oprócz nauki ww. technologii, poszerzam swoją widzę z WordPress'a, JavaScript'u oraz jego biblioteki jQuery. Strony wzbogacone o ich skrypty nabierają unikalnego wyglądu.</p> -->
-			</div>
-		</section>
-		<section class="slider-4" id="portfolio">
-			<div class="container">
-  				<div class="row">
-  					<h2>Portfolio</h2>
-    				<div class="col-lg-12">
-    					<div class="portfolioFilter clearfix">
-      						<a href="#" data-filter="*" class="current">All Categories</a>
-      						<a href="#" data-filter=".webTemplates">Web Templates</a>
-      						<a href="#" data-filter=".logos">Logos</a>
-      						<a href="#" data-filter=".drawings">Drawings</a>
-      						<a href="#" data-filter=".ui">UI Elements</a>
-    					</div>
-      				</div>
-   	 				<div class="portfolioContainer">
-      					<div class="webTemplates objects">
-        					<img src="https://mir-s3-cdn-cf.behance.net/projects/202/cc99b535336825.Y3JvcCwxMzk1LDEwOTEsMCw3ODA.png" alt="image">
-     					 </div>
-					    <div class="drawings places">
-					        <img src="https://mir-s3-cdn-cf.behance.net/projects/202/d4cfa934191261.Y3JvcCw2MTMsNDc5LDQsMjA0.jpg" alt="image">
-					    </div>
-				      	<div class="webTemplates food">
-				        	<img src="https://mir-s3-cdn-cf.behance.net/projects/202/11893193.5482088f6f391.png" alt="image">
-				      	</div>
-					    <div class="logos drawings">
-					      	<img src="https://mir-s3-cdn-cf.behance.net/projects/202/be4b9728308865.55b92edb950fc.jpg" alt="image">
-					    </div>
-					    <div class="webTemplates">
-					        <img src="https://mir-s3-cdn-cf.behance.net/projects/202/12963199.548365055868a.png" alt="image">
-					    </div>
-				      	<div class="ui">
-				        	<img src="https://mir-s3-cdn-cf.behance.net/projects/202/20342607.5434c04b49254.png" alt="image">
-				      	</div>
-					    <div class="drawings">
-					       	<img src="https://mir-s3-cdn-cf.behance.net/projects/202/b11bbb26474383.555f91fd42584.jpg" alt="image">
-					    </div>
-					    <div class="webTemplates">
-					        <img src="https://mir-s3-cdn-cf.behance.net/projects/202/14385875.548573dae7a09.jpg" alt="image">
-					    </div>
-					    <div class="drawings">
-					  	    <img src="https://mir-s3-cdn-cf.behance.net/projects/202/14569777.5485b3876a1b9.png" alt="image">
-					    </div>
-					    <div class="logos">
-					        <img src=" https://mir-s3-cdn-cf.behance.net/projects/202/1d854a24500155.5505cccd057a4.jpg" alt="image">
-					    </div>
-					    <div class="ui">
-					        <img src="https://mir-s3-cdn-cf.behance.net/projects/202/f9b95b26406487.555cc1fded76f.jpg" alt="image">
-					    </div>  
-					    <div class="logos">
-					        <img src="https://mir-s3-cdn-cf.behance.net/projects/202/181a7b35469661.Y3JvcCw3NjUsNTk5LDY3LDA.png" alt="image">
-					    </div> 
-    				</div>
-  				</div>
-			</div>
-		</section>
-		<section class="slider-5" id="contact">
-			<div class="container">
-				<div class="row">
-					<h1>Kontakt</h1>
-					<div class="col-md-5">
-						<div class="row">
-							<div class="col-sm-6">
-								<h2>Telefon:</h2>
-								<p>+48 608 089 341</p>
-							</div>
-							<div class="col-sm-6">
-								<h2>Email:</h2>
-								<p>jarekborzecki@wp.pl</p>
-							</div>
-						</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam;</p>
-					</div>
-					<div class="col-md-6 col-sm-offset-1">
-						<h2 class="text-left">Skontaktuj się ze mną!</h2>
-						<form>
-							<div class="form-group">
-								<label for="nameInput">Imię</label>
-								<input type="text" class="form-control" name="imie" id="nameInput">
-							</div>
-							<div class="form-group">
-								<label for="">Wiadomość</label>
-								<textarea class="form-control" rows="10" placeholder="Write something..."></textarea>
-							</div>
-							<input type="submit" name="button" class="btn" value="Wyślij">
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</section>
-		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-    	<script src="http://isotope.metafizzy.co/v1/jquery.isotope.min.js"></script>
-		<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-		<script type="text/javascript" src="js/script.js"></script>
-		<script>
-		window.sr = ScrollReveal();
-		sr.reveal('.animate-1');
-		sr.reveal('.animate-2');
-		</script>
+		<main id="area">
+			<aside id="white_figures"></aside>
+			<table>
+				<thead id="areaHeader"></thead>
+				<tbody id="areaContent"></tbody>
+			</table>
+			<aside id="black_figures"></aside>
+			<button type="button" id="set_figures">Rozstaw figury</button>
+		</main>
 	</body>
 </html>
